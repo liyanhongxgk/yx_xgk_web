@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 var fs = require('fs');
 var path = require('path'); //系统路径模块
-const MySubject = require('./model/mysubject');
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {
